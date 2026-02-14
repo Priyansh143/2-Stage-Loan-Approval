@@ -1,0 +1,11 @@
+pandas==2.3.0
+scikit-learn==1.7.1
+matplotlib==3.10.7
+seaborn==0.13.2
+numpy==2.2.4
+streamlit>=1.18
+joblib==1.5.1
+PyYAML==6.0.3
+shap==0.50.0
+ipykernel
+# xgboost==3.1.2
