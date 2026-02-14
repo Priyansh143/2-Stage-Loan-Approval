@@ -1,0 +1,31 @@
+
+models: 
+  classifier: ../models/stage_1_rf_classifier_pipeline.pkl
+  regressor: ../models/stage_2_rf_regressor_pipeline.pkl
+
+input_features:
+  - no_of_dependents
+  - education
+  - self_employed
+  - income_annum
+  - loan_amount
+  - loan_term
+  - cibil_score
+  - residential_assets_value
+  - commercial_assets_value
+  - luxury_assets_value
+  - bank_asset_value
+
+ui:
+  default_inputs:
+    no_of_dependents: 0
+    education: 'Graduate'
+    self_employed: 'No'
+    income_annum: 0
+    loan_term: 360
+    cibil_score: 300
+    residential_assets_value: 0
+    commercial_assets_value: 0
+    luxury_assets_value: 0
+    bank_asset_value: 0
+    loan_amount: 0
